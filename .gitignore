@@ -1,0 +1,35 @@
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+*.zip
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets/Local Config
+.env
+application.properties
+*.local

@@ -1,0 +1,23 @@
+# --- DATABASE CONFIGURATION ---
+
+# [OPTION 1] H2 In-Memory (Testing)
+spring.datasource.url=jdbc:h2:mem:superherodb
+spring.datasource.username=sa
+spring.datasource.password=
+
+# [OPTION 2] MySQL Example
+# spring.datasource.url=jdbc:mysql://localhost:3306/your_db
+# spring.datasource.username=root
+# spring.datasource.password=your_pass
+
+# [OPTION 3] PostgreSQL Example
+# spring.datasource.url=jdbc:postgresql://localhost:5432/your_db
+# spring.datasource.username=postgres
+# spring.datasource.password=your_pass
+
+# JWT Configuration
+jwt.secret=your_super_secret_key_minimum_32_characters_long
+jwt.expiration=3600000
+
+# Server
+server.port=8080
